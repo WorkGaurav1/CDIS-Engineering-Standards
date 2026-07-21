@@ -225,4 +225,4 @@ CTRL + C
 
 # Next Step
 
-Proceed to **03 - Project Setup**
+Proceed to **03 - Configure-React-Project

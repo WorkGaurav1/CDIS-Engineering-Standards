@@ -221,8 +221,10 @@ CTRL + C
 - [ ] Application opened successfully.
 - [ ] Development server stopped.
 
----
 
-## Next Step
 
 Proceed to **03 - Configure-React-Project
+
+---
+
+[⬅ Previous](01-Development-Environment.md) | [Next ➡](03-Configure-React-Project.md)

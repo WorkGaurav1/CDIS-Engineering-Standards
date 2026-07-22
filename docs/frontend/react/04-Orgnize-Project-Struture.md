@@ -260,8 +260,10 @@ features/
 - [ ] Feature architecture understood.
 - [ ] Project follows the CDIS standard.
 
----
 
-## Next Step
 
 Proceed to **05 - Configure Application Routing**
+
+---
+
+[⬅ Previous](03-Configure-React-Project.md) | [Next ➡](05-Configure Application Routing.md)

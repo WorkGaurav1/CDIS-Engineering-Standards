@@ -55,6 +55,4 @@ While working on React projects at CDIS:
 
 ---
 
-## Next Step
-
-➡ Continue with **01 - Development Environment**
+[⬅ Previous](One-React.md)

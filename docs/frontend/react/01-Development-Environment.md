@@ -167,8 +167,10 @@ Everything should execute without errors.
 - [ ] VS Code extensions installed
 - [ ] Environment verified
 
----
 
-## Next Step
 
 Proceed to **02 - Create React Project**
+
+---
+
+[Next ➡](02-Create-React-Project.md)

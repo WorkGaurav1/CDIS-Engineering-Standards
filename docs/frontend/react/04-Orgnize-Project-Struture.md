@@ -12,7 +12,7 @@ Before starting this guide, ensure the following:
 
 - React project has been created successfully.
 - Project configuration has been completed.
-- ESLint and Prettier have been configured.
+- ESLint and Prettier have been configured. If not, follow the official docs: [ESLint](https://eslint.org/docs/latest/) and [Prettier](https://prettier.io/docs/en/index.html)
 - The project runs successfully.
 
 ---

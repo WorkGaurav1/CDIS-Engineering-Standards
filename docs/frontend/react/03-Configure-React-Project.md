@@ -10,9 +10,9 @@ Configure a newly created React project according to CDIS engineering standards.
 
 Before starting this guide, ensure the following:
 
-- React development environment is ready.
-- React project has been created successfully.
-- Project dependencies have been installed.
+- React development environment is ready. This includes Node.js and npm installed: [Node.js Downloads](https://nodejs.org/en/download/), [npm Install](https://www.npmjs.com/get-npm)
+- React project has been created successfully. If not, create one using Vite following the official guide: [Vite React Guide](https://vitejs.dev/guide/)
+- Project dependencies have been installed. If not, run `npm install` inside the project.
 - You are inside the project directory.
 
 ---

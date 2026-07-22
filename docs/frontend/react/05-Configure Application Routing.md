@@ -13,7 +13,7 @@ Before starting this guide, ensure the following:
 - React project has been created successfully.
 - Project structure has been organized.
 - The application runs successfully.
-- Node.js and npm are installed.
+- Node.js and npm are installed. If not, install them from the official sites: [Node.js Downloads](https://nodejs.org/en/download/) and [npm Install](https://www.npmjs.com/get-npm)
 
 ---
 

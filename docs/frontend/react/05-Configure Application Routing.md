@@ -1,12 +1,12 @@
 # 05 - Configure Application Routing
 
-## Objective
+### Objective
 
 Configure client-side routing in a React application using **React Router** and organize the routing configuration according to the CDIS project structure.
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 Before starting this guide, ensure the following:
 
@@ -17,11 +17,11 @@ Before starting this guide, ensure the following:
 
 ---
 
-# Step 1 - Install React Router
+## Step 1 - Install React Router
 
 Install the React Router package.
 
-### Command
+#### Command
 
 ```bash
 npm install react-router-dom
@@ -29,17 +29,17 @@ npm install react-router-dom
 
 ---
 
-# Step 2 - Verify Installation
+## Step 2 - Verify Installation
 
 Verify that the package has been installed successfully.
 
-### Command
+#### Command
 
 ```bash
 npm list react-router-dom
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 react-router-dom@7.x.x
@@ -47,13 +47,13 @@ react-router-dom@7.x.x
 
 ---
 
-# Step 3 - Create the Router Directory
+## Step 3 - Create the Router Directory
 
 The routing configuration should be placed inside the `routes` directory.
 
 If the directory does not already exist, create it.
 
-### Command
+#### Command
 
 ```bash
 mkdir -p src/routes
@@ -61,11 +61,11 @@ mkdir -p src/routes
 
 ---
 
-# Step 4 - Create the Router Component
+## Step 4 - Create the Router Component
 
 Create the router configuration file.
 
-### Command
+#### Command
 
 ```bash
 touch src/routes/Router.jsx
@@ -73,11 +73,11 @@ touch src/routes/Router.jsx
 
 ---
 
-# Step 5 - Create Initial Pages
+## Step 5 - Create Initial Pages
 
 Create the first application pages.
 
-### Commands
+#### Commands
 
 ```bash
 mkdir -p src/features/home/pages
@@ -89,7 +89,7 @@ touch src/features/about/pages/AboutPage.jsx
 
 ---
 
-# Step 6 - Create the Home Page
+## Step 6 - Create the Home Page
 
 **File**
 
@@ -107,7 +107,7 @@ export default HomePage;
 
 ---
 
-# Step 7 - Create the About Page
+## Step 7 - Create the About Page
 
 **File**
 
@@ -125,7 +125,7 @@ export default AboutPage;
 
 ---
 
-# Step 8 - Configure the Router
+## Step 8 - Configure the Router
 
 **File**
 
@@ -155,7 +155,7 @@ export default Router;
 
 ---
 
-# Step 9 - Configure the Application Entry Point
+## Step 9 - Configure the Application Entry Point
 
 Replace the `App` component with the router.
 
@@ -180,11 +180,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ---
 
-# Step 10 - Create a Not Found Page
+## Step 10 - Create a Not Found Page
 
 Create a page to handle unknown routes.
 
-### Commands
+#### Commands
 
 ```bash
 mkdir -p src/features/not-found/pages
@@ -214,11 +214,11 @@ Update `src/routes/Router.jsx`.
 
 ---
 
-# Step 11 - Start the Development Server
+## Step 11 - Start the Development Server
 
 Run the application.
 
-### Command
+#### Command
 
 ```bash
 npm run dev
@@ -226,7 +226,7 @@ npm run dev
 
 ---
 
-# Step 12 - Verify the Routes
+## Step 12 - Verify the Routes
 
 Open the following URLs in your browser.
 
@@ -238,7 +238,7 @@ Open the following URLs in your browser.
 
 ---
 
-# CDIS Standards
+## CDIS Standards
 
 - Store all routing configuration inside the `src/routes` directory.
 - Maintain a single router configuration for the application.
@@ -251,7 +251,7 @@ Open the following URLs in your browser.
 
 ---
 
-# Common Mistakes
+## Common Mistakes
 
 - Defining routes directly inside `App.jsx`.
 - Mixing routing logic with business logic.
@@ -262,7 +262,7 @@ Open the following URLs in your browser.
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] React Router installed.
 - [ ] Router component created.
@@ -274,9 +274,9 @@ Open the following URLs in your browser.
 
 ---
 
-# References
+## References
 
-## Official Documentation
+### Official Documentation
 
 - React Documentation  
   https://react.dev/
@@ -287,7 +287,7 @@ Open the following URLs in your browser.
 - Vite Documentation  
   https://vite.dev/
 
-## Industry References
+### Industry References
 
 - React Router maintainers' recommended routing patterns (React Router documentation)
 - Feature-based project organization commonly used in large React applications (industry practice)

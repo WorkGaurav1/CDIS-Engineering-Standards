@@ -1,12 +1,12 @@
 # 03 - Configure React Project
 
-## Objective
+### Objective
 
 Configure a newly created React project according to CDIS engineering standards. This includes cleaning the default Vite project, installing code quality tools, and preparing the project for development.
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 Before starting this guide, ensure the following:
 
@@ -17,11 +17,11 @@ Before starting this guide, ensure the following:
 
 ---
 
-# Step 1 - Open the Project
+## Step 1 - Open the Project
 
 Navigate to the React project.
 
-### Command
+#### Command
 
 ```bash
 cd employee-portal
@@ -31,11 +31,11 @@ Replace **employee-portal** with your project name.
 
 ---
 
-# Step 2 - Open the Project in Visual Studio Code
+## Step 2 - Open the Project in Visual Studio Code
 
 Open the project in Visual Studio Code.
 
-### Command
+#### Command
 
 ```bash
 code .
@@ -43,17 +43,17 @@ code .
 
 ---
 
-# Step 3 - Verify the Default Project Structure
+## Step 3 - Verify the Default Project Structure
 
 Verify that the project has been created successfully.
 
-### Command
+#### Command
 
 ```bash
 tree -L 2
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 employee-portal
@@ -73,7 +73,7 @@ employee-portal
 
 ---
 
-# Step 4 - Remove the Default Vite Boilerplate
+## Step 4 - Remove the Default Vite Boilerplate
 
 The default Vite project contains sample code that is not required for CDIS applications.
 
@@ -84,7 +84,7 @@ src/App.css
 src/assets/react.svg
 ```
 
-### Command
+#### Command
 
 ```bash
 rm src/App.css
@@ -93,17 +93,17 @@ rm src/assets/react.svg
 
 ---
 
-# Step 5 - Clean App.jsx
+## Step 5 - Clean App.jsx
 
 Replace the default sample component with a minimal application component.
 
-### File
+#### File
 
 ```text
 src/App.jsx
 ```
 
-### Example
+#### Example
 
 ```jsx
 function App() {
@@ -115,17 +115,17 @@ export default App;
 
 ---
 
-# Step 6 - Clean main.jsx
+## Step 6 - Clean main.jsx
 
 Remove unused stylesheet imports.
 
-### File
+#### File
 
 ```text
 src/main.jsx
 ```
 
-### Example
+#### Example
 
 ```jsx
 import React from "react";
@@ -141,11 +141,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ---
 
-# Step 7 - Install ESLint
+## Step 7 - Install ESLint
 
 CDIS uses ESLint to enforce consistent coding standards across all React projects.
 
-### Command
+#### Command
 
 ```bash
 npm install -D eslint
@@ -153,11 +153,11 @@ npm install -D eslint
 
 ---
 
-# Step 8 - Install Prettier
+## Step 8 - Install Prettier
 
 CDIS uses Prettier to maintain consistent code formatting.
 
-### Command
+#### Command
 
 ```bash
 npm install -D prettier
@@ -165,11 +165,11 @@ npm install -D prettier
 
 ---
 
-# Step 9 - Install ESLint Plugins
+## Step 9 - Install ESLint Plugins
 
 Install the required plugins for React projects.
 
-### Command
+#### Command
 
 ```bash
 npm install -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
@@ -177,11 +177,11 @@ npm install -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react
 
 ---
 
-# Step 10 - Create ESLint Configuration
+## Step 10 - Create ESLint Configuration
 
 Create the ESLint configuration file.
 
-### Command
+#### Command
 
 ```bash
 touch eslint.config.js
@@ -191,11 +191,11 @@ touch eslint.config.js
 
 ---
 
-# Step 11 - Create Prettier Configuration
+## Step 11 - Create Prettier Configuration
 
 Create the Prettier configuration file.
 
-### Commands
+#### Commands
 
 ```bash
 touch .prettierrc
@@ -206,17 +206,17 @@ touch .prettierignore
 
 ---
 
-# Step 12 - Verify Installed Packages
+## Step 12 - Verify Installed Packages
 
 Verify that all required development dependencies are installed.
 
-### Command
+#### Command
 
 ```bash
 npm list --depth=0
 ```
 
-### Expected Output
+#### Expected Output
 
 The following packages should be present.
 
@@ -230,11 +230,11 @@ eslint-plugin-react-refresh
 
 ---
 
-# Step 13 - Run ESLint
+## Step 13 - Run ESLint
 
 Verify that ESLint runs successfully.
 
-### Command
+#### Command
 
 ```bash
 npx eslint .
@@ -244,17 +244,17 @@ No errors should be reported.
 
 ---
 
-# Step 14 - Start the Development Server
+## Step 14 - Start the Development Server
 
 Run the application.
 
-### Command
+#### Command
 
 ```bash
 npm run dev
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 VITE vX.X.X
@@ -264,7 +264,7 @@ Local: http://localhost:5173/
 
 ---
 
-# Step 15 - Verify the Application
+## Step 15 - Verify the Application
 
 Open the application in your browser.
 
@@ -280,7 +280,7 @@ Welcome to CDIS
 
 ---
 
-# CDIS Standards
+## CDIS Standards
 
 - Use **npm** as the package manager.
 - Remove the default Vite boilerplate before development.
@@ -291,7 +291,7 @@ Welcome to CDIS
 
 ---
 
-# Common Mistakes
+## Common Mistakes
 
 - Leaving the default Vite sample code.
 - Forgetting to remove unused assets.
@@ -301,7 +301,7 @@ Welcome to CDIS
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] Project opened successfully.
 - [ ] Default Vite boilerplate removed.
@@ -318,6 +318,6 @@ Welcome to CDIS
 
 ---
 
-# Next Step
+## Next Step
 
 Proceed to **04 - Organize Project Structure**

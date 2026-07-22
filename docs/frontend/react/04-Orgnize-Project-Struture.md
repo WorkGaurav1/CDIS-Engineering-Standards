@@ -1,12 +1,12 @@
 # 04 - Organize Project Structure
 
-## Objective
+### Objective
 
 Organize the React project using the official CDIS project architecture. A consistent project structure improves code maintainability, scalability, collaboration, and developer onboarding.
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 Before starting this guide, ensure the following:
 
@@ -17,7 +17,7 @@ Before starting this guide, ensure the following:
 
 ---
 
-# CDIS Project Architecture
+## CDIS Project Architecture
 
 All React applications developed at CDIS must follow the standard Hybrid Architecture.
 
@@ -30,7 +30,7 @@ Shared resources are accessible throughout the application, while feature-specif
 
 ---
 
-# Standard Project Structure
+## Standard Project Structure
 
 ```text
 src/
@@ -63,17 +63,17 @@ src/
 
 ---
 
-# Step 1 - Review the Current Project Structure
+## Step 1 - Review the Current Project Structure
 
 Verify the current structure of the project.
 
-### Command
+#### Command
 
 ```bash
 tree src
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 src
@@ -84,11 +84,11 @@ src
 
 ---
 
-# Step 2 - Create the Shared Directories
+## Step 2 - Create the Shared Directories
 
 Create the standard shared directories.
 
-### Command
+#### Command
 
 ```bash
 mkdir src/assets
@@ -105,11 +105,11 @@ mkdir src/utils
 
 ---
 
-# Step 3 - Create Component Directories
+## Step 3 - Create Component Directories
 
 Create the standard component directories.
 
-### Command
+#### Command
 
 ```bash
 mkdir src/components/common
@@ -118,17 +118,17 @@ mkdir src/components/ui
 
 ---
 
-# Step 4 - Verify the Directory Structure
+## Step 4 - Verify the Directory Structure
 
 Verify that all directories have been created successfully.
 
-### Command
+#### Command
 
 ```bash
 tree src -L 2
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 src
@@ -151,7 +151,7 @@ src
 
 ---
 
-# Shared Directory Responsibilities
+## Shared Directory Responsibilities
 
 | Directory | Responsibility |
 |------------|----------------|
@@ -169,7 +169,7 @@ src
 
 ---
 
-# Feature Directory
+## Feature Directory
 
 Feature-specific code should always be placed inside the **features** directory.
 
@@ -184,7 +184,7 @@ features/
 
 ---
 
-# Standard Feature Structure
+## Standard Feature Structure
 
 Each feature should follow the same directory structure.
 
@@ -216,7 +216,7 @@ features/
 
 ---
 
-# Architecture Guidelines
+## Architecture Guidelines
 
 - Shared code belongs in the root-level directories.
 - Feature-specific code belongs inside the corresponding feature.
@@ -226,7 +226,7 @@ features/
 
 ---
 
-# CDIS Standards
+## CDIS Standards
 
 - Every React application must follow the CDIS Hybrid Architecture.
 - Do not create unnecessary top-level directories.
@@ -240,7 +240,7 @@ features/
 
 ---
 
-# Common Mistakes
+## Common Mistakes
 
 - Placing feature-specific code inside shared directories.
 - Creating duplicate utility functions.
@@ -251,7 +251,7 @@ features/
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] Standard project directories created.
 - [ ] Shared component directories created.
@@ -262,6 +262,6 @@ features/
 
 ---
 
-# Next Step
+## Next Step
 
 Proceed to **05 - Configure Application Routing**

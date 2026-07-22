@@ -11,7 +11,7 @@ This playbook provides the standard workflow followed by CDIS engineers while de
 
 ---
 
-# Who Should Use This?
+## Who Should Use This?
 
 - New engineers joining CDIS
 - Engineers starting a new React project
@@ -19,7 +19,7 @@ This playbook provides the standard workflow followed by CDIS engineers while de
 
 ---
 
-# React Development Journey
+## React Development Journey
 
 Follow the documents in the order listed below.
 
@@ -42,7 +42,7 @@ Follow the documents in the order listed below.
 ----------------------------------
 ---
 
-# General Rules
+## General Rules
 
 While working on React projects at CDIS:
 
@@ -55,6 +55,6 @@ While working on React projects at CDIS:
 
 ---
 
-# Next Step
+## Next Step
 
 ➡ Continue with **01 - Development Environment**

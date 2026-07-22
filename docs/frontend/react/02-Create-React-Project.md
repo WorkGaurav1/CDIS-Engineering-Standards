@@ -1,12 +1,12 @@
 # 02 - Create React Project
 
-## Objective
+### Objective
 
 Create a new React project using the standard project creation process followed at CDIS.
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 Before starting this guide, ensure the following:
 
@@ -17,11 +17,11 @@ Before starting this guide, ensure the following:
 
 ---
 
-# Step 1 - Navigate to the Workspace
+## Step 1 - Navigate to the Workspace
 
 Open a terminal and navigate to your development workspace.
 
-### Command
+#### Command
 
 ```bash
 cd ~/Desktop/Projects
@@ -31,23 +31,23 @@ cd ~/Desktop/Projects
 
 ---
 
-# Step 2 - Create a New React Project
+## Step 2 - Create a New React Project
 
 Create a new React project using Vite.
 
-### Command
+#### Command
 
 ```bash
 npm create vite@latest my-react-app
 ```
 
-### Example
+#### Example
 
 ```bash
 npm create vite@latest employee-portal
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 ✔ Project name: employee-portal
@@ -57,11 +57,11 @@ npm create vite@latest employee-portal
 
 ---
 
-# Step 3 - Select Framework
+## Step 3 - Select Framework
 
 Choose the React framework when prompted.
 
-### Selection
+#### Selection
 
 ```text
 Framework:
@@ -70,11 +70,11 @@ Framework:
 
 ---
 
-# Step 4 - Select Variant
+## Step 4 - Select Variant
 
 Choose the project variant.
 
-### Selection
+#### Selection
 
 ```text
 Variant:
@@ -85,17 +85,17 @@ Variant:
 
 ---
 
-# Step 5 - Navigate to the Project Directory
+## Step 5 - Navigate to the Project Directory
 
 Move into the newly created project.
 
-### Command
+#### Command
 
 ```bash
 cd my-react-app
 ```
 
-### Example
+#### Example
 
 ```bash
 cd employee-portal
@@ -103,17 +103,17 @@ cd employee-portal
 
 ---
 
-# Step 6 - Install Project Dependencies
+## Step 6 - Install Project Dependencies
 
 Install all project dependencies.
 
-### Command
+#### Command
 
 ```bash
 npm install
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 added xxx packages
@@ -121,17 +121,17 @@ added xxx packages
 
 ---
 
-# Step 7 - Verify Project Structure
+## Step 7 - Verify Project Structure
 
 Verify that the project has been created successfully.
 
-### Command
+#### Command
 
 ```bash
 ls
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 node_modules/
@@ -144,17 +144,17 @@ README.md
 
 ---
 
-# Step 8 - Start the Development Server
+## Step 8 - Start the Development Server
 
 Run the application in development mode.
 
-### Command
+#### Command
 
 ```bash
 npm run dev
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 VITE vX.X.X ready in XXX ms
@@ -164,11 +164,11 @@ VITE vX.X.X ready in XXX ms
 
 ---
 
-# Step 9 - Verify the Application
+## Step 9 - Verify the Application
 
 Open the application in your browser.
 
-### URL
+#### URL
 
 ```text
 http://localhost:5173
@@ -178,11 +178,11 @@ The default Vite + React application should load successfully.
 
 ---
 
-# Step 10 - Stop the Development Server
+## Step 10 - Stop the Development Server
 
 Stop the running development server.
 
-### Command
+#### Command
 
 ```text
 CTRL + C
@@ -190,7 +190,7 @@ CTRL + C
 
 ---
 
-# CDIS Standards
+## CDIS Standards
 
 - Use **npm** as the package manager.
 - Use **Vite** to create all new React projects unless instructed otherwise.
@@ -200,7 +200,7 @@ CTRL + C
 
 ---
 
-# Common Mistakes
+## Common Mistakes
 
 - Creating the project outside the development workspace.
 - Selecting the wrong framework.
@@ -211,7 +211,7 @@ CTRL + C
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] Project created successfully.
 - [ ] React framework selected.
@@ -223,6 +223,6 @@ CTRL + C
 
 ---
 
-# Next Step
+## Next Step
 
 Proceed to **03 - Configure-React-Project

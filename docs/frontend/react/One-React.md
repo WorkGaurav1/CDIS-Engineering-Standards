@@ -6,7 +6,7 @@
 
 ---
 
-# Purpose
+## Purpose
 
 This document defines the standard practices for developing React applications at CDIS.
 
@@ -14,7 +14,7 @@ It is intended for engineers who already have working knowledge of React. This d
 
 ---
 
-# Technology Stack
+## Technology Stack
 
 | Technology | Standard |
 |------------|----------|
@@ -29,7 +29,7 @@ It is intended for engineers who already have working knowledge of React. This d
 
 ---
 
-# Create a New Project
+## Create a New Project
 
 ```bash
 npm create vite@latest my-app -- --template react
@@ -43,7 +43,7 @@ npm run dev
 
 ---
 
-# Standard Project Structure
+## Standard Project Structure
 
 Every React project should follow the structure below.
 
@@ -78,7 +78,7 @@ src/
 
 ---
 
-# Directory Standards
+## Directory Standards
 
 | Directory | Purpose |
 |-----------|---------|
@@ -95,7 +95,7 @@ src/
 
 ---
 
-# Feature Organization
+## Feature Organization
 
 Each business feature should remain self-contained.
 
@@ -117,9 +117,9 @@ Avoid creating feature folders until they are required.
 
 ---
 
-# Naming Conventions
+## Naming Conventions
 
-## Components
+### Components
 
 Use PascalCase.
 
@@ -131,7 +131,7 @@ DashboardLayout.jsx
 
 ---
 
-## Pages
+### Pages
 
 Use PascalCase with the **Page** suffix.
 
@@ -143,7 +143,7 @@ EmployeeProfilePage.jsx
 
 ---
 
-## Layouts
+### Layouts
 
 Use PascalCase with the **Layout** suffix.
 
@@ -155,7 +155,7 @@ AuthLayout.jsx
 
 ---
 
-## Hooks
+### Hooks
 
 Use camelCase beginning with **use**.
 
@@ -169,7 +169,7 @@ useEmployee.js
 
 ---
 
-## Services
+### Services
 
 Use camelCase.
 
@@ -181,7 +181,7 @@ authService.js
 
 ---
 
-## Utility Files
+### Utility Files
 
 Use camelCase.
 
@@ -193,7 +193,7 @@ validation.js
 
 ---
 
-## Constants
+### Constants
 
 Use UPPER_SNAKE_CASE.
 
@@ -205,7 +205,7 @@ export const MAX_USERS = 10;
 
 ---
 
-# Routing Standards
+## Routing Standards
 
 - Use React Router.
 - Store router configuration inside `src/routes`.
@@ -226,7 +226,7 @@ features/
 
 ---
 
-# Component Standards
+## Component Standards
 
 Reusable components belong inside
 
@@ -249,7 +249,7 @@ Guidelines
 
 ---
 
-# Styling Standards
+## Styling Standards
 
 - Use CSS Modules, Tailwind CSS, or the project-approved styling approach.
 - Avoid inline styles unless necessary.
@@ -258,7 +258,7 @@ Guidelines
 
 ---
 
-# API Standards
+## API Standards
 
 - Use Axios for HTTP requests.
 - Configure shared Axios instances inside `services/`.
@@ -278,7 +278,7 @@ features/
 
 ---
 
-# State Management Standards
+## State Management Standards
 
 Choose state management based on application complexity.
 
@@ -295,7 +295,7 @@ General guidelines
 
 ---
 
-# Environment Variables
+## Environment Variables
 
 Store environment variables inside
 
@@ -318,7 +318,7 @@ Never hardcode
 
 ---
 
-# Code Quality Standards
+## Code Quality Standards
 
 - Use ESLint.
 - Use Prettier.
@@ -330,7 +330,7 @@ Never hardcode
 
 ---
 
-# Git Standards
+## Git Standards
 
 - Create a feature branch for new work.
 - Write meaningful commit messages.
@@ -340,7 +340,7 @@ Never hardcode
 
 ---
 
-# General Engineering Practices
+## General Engineering Practices
 
 - Follow the established project structure.
 - Avoid duplicate code.
@@ -354,7 +354,7 @@ Never hardcode
 
 ---
 
-# Project Checklist
+## Project Checklist
 
 Before submitting your work, verify the following:
 
@@ -371,9 +371,9 @@ Before submitting your work, verify the following:
 
 ---
 
-# References
+## References
 
-## Official Documentation
+### Official Documentation
 
 - React Documentation  
   https://react.dev/
@@ -396,7 +396,7 @@ Before submitting your work, verify the following:
 - npm Documentation  
   https://docs.npmjs.com/
 
-## Industry References
+### Industry References
 
 - Airbnb JavaScript Style Guide  
   https://github.com/airbnb/javascript

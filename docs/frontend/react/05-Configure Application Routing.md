@@ -8,10 +8,10 @@ Configure client-side routing in a React application using **React Router** and 
 
 ### Prerequisites
 
-Before starting this guide, ensure the following:
+Before starting this guide, ensure the following are already completed.
 
-- React project has been created successfully.
-- Project structure has been organized.
+- A React project has been created successfully.
+- The project structure has been organized.
 - The application runs successfully.
 - Node.js and npm are installed. If not, install them from the official sites: [Node.js Downloads](https://nodejs.org/en/download/) and [npm Install](https://www.npmjs.com/get-npm)
 

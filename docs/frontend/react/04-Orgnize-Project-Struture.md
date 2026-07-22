@@ -8,9 +8,9 @@ Organize the React project using the official CDIS project architecture. A consi
 
 ### Prerequisites
 
-Before starting this guide, ensure the following:
+Before starting this guide, ensure the following are already completed.
 
-- React project has been created successfully.
+- A React project has been created successfully.
 - Project configuration has been completed.
 - ESLint and Prettier have been configured. If not, follow the official docs: [ESLint](https://eslint.org/docs/latest/) and [Prettier](https://prettier.io/docs/en/index.html)
 - The project runs successfully.

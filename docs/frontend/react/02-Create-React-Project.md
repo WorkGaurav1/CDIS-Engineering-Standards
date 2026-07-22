@@ -8,11 +8,9 @@ Create a new React project using the standard project creation process followed 
 
 ### Prerequisites
 
-Before starting this guide, ensure the following:
+Before starting this guide, ensure the following are already completed.
 
-- Development environment is ready.
-- Node.js (Latest LTS) is installed. If not, install it from the official site: [Node.js Downloads](https://nodejs.org/en/download/)
-- npm is installed. If not, install it from the official site: [npm Install](https://www.npmjs.com/get-npm)
+- Node.js and npm are installed. If not, install them from the official sites: [Node.js Downloads](https://nodejs.org/en/download/) and [npm Install](https://www.npmjs.com/get-npm)
 - Visual Studio Code is installed. If not, install it from the official site: [VS Code](https://code.visualstudio.com/)
 
 ---

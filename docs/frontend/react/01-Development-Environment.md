@@ -1,12 +1,12 @@
 # 01 - Development Environment
 
-## Objective
+### Objective
 
 Prepare your local machine for React development by installing the React-specific tools and verifying that the environment is ready.
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 Before starting this guide, ensure the following are already completed.
 
@@ -17,17 +17,17 @@ Before starting this guide, ensure the following are already completed.
 
 ---
 
-# Step 1 - Verify Node.js Installation
+## Step 1 - Verify Node.js Installation
 
 Verify that Node.js is installed.
 
-### Command
+#### Command
 
 ```bash
 node -v
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 v22.x.x
@@ -35,17 +35,17 @@ v22.x.x
 
 ---
 
-# Step 2 - Verify npm Installation
+## Step 2 - Verify npm Installation
 
 Verify that npm is installed.
 
-### Command
+#### Command
 
 ```bash
 npm -v
 ```
 
-### Expected Output
+#### Expected Output
 
 ```text
 10.x.x
@@ -53,7 +53,7 @@ npm -v
 
 ---
 
-# Step 3 - Install React Developer Tools (Browser Extension)
+## Step 3 - Install React Developer Tools (Browser Extension)
 
 Install the React Developer Tools extension for your browser.
 
@@ -67,41 +67,41 @@ Verify that the extension appears in your browser extensions list.
 
 ---
 
-# Step 4 - Install Recommended VS Code Extensions
+## Step 4 - Install Recommended VS Code Extensions
 
 Install the following extensions.
 
-### ESLint
+#### ESLint
 
 ```bash
 code --install-extension dbaeumer.vscode-eslint
 ```
 
-### Prettier
+#### Prettier
 
 ```bash
 code --install-extension esbenp.prettier-vscode
 ```
 
-### ES7+ React Snippets
+#### ES7+ React Snippets
 
 ```bash
 code --install-extension dsznajder.es7-react-js-snippets
 ```
 
-### Auto Rename Tag
+#### Auto Rename Tag
 
 ```bash
 code --install-extension formulahendry.auto-rename-tag
 ```
 
-### Path Intellisense
+#### Path Intellisense
 
 ```bash
 code --install-extension christian-kohler.path-intellisense
 ```
 
-### Error Lens
+#### Error Lens
 
 ```bash
 code --install-extension usernamehw.errorlens
@@ -109,9 +109,9 @@ code --install-extension usernamehw.errorlens
 
 ---
 
-# Step 5 - Verify VS Code Extensions
+## Step 5 - Verify VS Code Extensions
 
-### Command
+#### Command
 
 ```bash
 code --list-extensions
@@ -121,7 +121,7 @@ Verify that all required extensions are installed.
 
 ---
 
-# Step 6 - Verify React Development Environment
+## Step 6 - Verify React Development Environment
 
 Run the following commands.
 
@@ -141,7 +141,7 @@ Everything should execute without errors.
 
 ---
 
-# CDIS Standards
+## CDIS Standards
 
 - Use npm as the package manager.
 - Use Visual Studio Code for React development.
@@ -150,7 +150,7 @@ Everything should execute without errors.
 
 ---
 
-# Common Mistakes
+## Common Mistakes
 
 - Missing React Developer Tools.
 - Missing ESLint extension.
@@ -159,7 +159,7 @@ Everything should execute without errors.
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] Node.js verified
 - [ ] npm verified
@@ -169,6 +169,6 @@ Everything should execute without errors.
 
 ---
 
-# Next Step
+## Next Step
 
 Proceed to **02 - Create React Project**

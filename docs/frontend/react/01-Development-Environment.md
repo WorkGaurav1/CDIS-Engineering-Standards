@@ -10,10 +10,10 @@ Prepare your local machine for React development by installing the React-specifi
 
 Before starting this guide, ensure the following are already completed.
 
-- Git is installed and configured.
-- Node.js (Latest LTS) is installed.
-- npm is installed.
-- Visual Studio Code is installed.
+- Git is installed and configured. If not, install it from the official site: [Git Downloads](https://git-scm.com/downloads)
+- Node.js (Latest LTS) is installed. If not, install it from the official site: [Node.js Downloads](https://nodejs.org/en/download/)
+- npm is installed. If not, install it from the official site: [npm Install](https://www.npmjs.com/get-npm)
+- Visual Studio Code is installed. If not, install it from the official site: [VS Code](https://code.visualstudio.com/)
 
 ---
 
